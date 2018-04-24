@@ -1,6 +1,6 @@
 # c5t_sms_gateway
 Openerp odoo  Tested with openerp 7 Saas-3 
-Uses a smartpphone with smsgateway ultimate to send sms from openerp objects. The sending to the mobile phone is made with http requests
+Uses a smartphone with smsgateway ultimate to send sms from openerp objects. The sending to the mobile phone is made with http requests
 
     Utilise un telephone portable avec l'appli smsgateway ultimate pour envoyer des sms. la communication avec le mobile se fait en requete http
 
