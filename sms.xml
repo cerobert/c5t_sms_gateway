@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<openerp>
+	<data noupdate="1">
+		<record id="ir_config_parameter_sms" model="ir.config_parameter">
+			<field name="key">sms_gateway_ip:port(ex:1.0.0.152:45091)</field>
+			<field name="value">1.0.0.152:45091</field>
+		</record>
+	</data>
+<!--
+           <record model="ir.ui.view" id="view_error_mail">
+            <field name="name">mail.mail.error.tree</field>
+            <field name="model">mail.mail</field>
+            <field name="arch" type="xml">
+                <tree string="Emails" colors="grey:state in ('sent', 'cancel');blue:state=='outgoing';red:state=='exception';black:state=='received'">
+                    <field name="date"/>
+                    <field name="subject"/>
+                    <field name="author_id" string="User"/>
+                    <field name="message_id" invisible="1"/>
+                    <field name="recipient_ids" />
+                    <field name="model" invisible="1"/>
+                    <field name="res_id" invisible="1"/>
+                    <field name="email_from" />
+                    <field name="email_to" />
+
+                    <field name="state"/>
+                    <field name="type" invisible="1"/>
+                    <button name="send" string="Send" type="object" icon="gtk-media-play" states='outgoing'/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="action_send_sms" model="ir.actions.act_window">
+            <field name="name">send.sms</field>
+            <field name="res_model">sms.gateway</field>
+            <field name="context">{}</field>
+            <field name="view_id" ref="view_send_sms" />
+            <field name="view_type">form</field>
+            <field name="view_mode">form</field>
+            <field name="domain">[]</field>
+        </record>
+
+
+        <menuitem name="SMS" id="menu_send_sms" parent="mail.mail_feeds" action="action_send_sms" sequence="1" /> -->
+
+</openerp>
